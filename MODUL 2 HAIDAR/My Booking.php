@@ -93,5 +93,11 @@
                 </tbody>
             </table>
         </div>
+
+        <footer class="bg-light text-secondary">
+        <div class="container-md text-center">
+            <p class="p-3 mt-3 mb-0">Created by Muhammad Haidar Rais_1202204321</p>
+        </div>
+    </footer>
 </body>
 </html>
