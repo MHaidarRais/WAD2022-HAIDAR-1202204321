@@ -47,10 +47,10 @@
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-center">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="Home.html">Home</a>
+                    <a class="nav-link" href="Haidar_Home.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Booking.html">Booking</a>
+                    <a class="nav-link" href="Haidar_Booking.html">Booking</a>
                 </li>
             </ul>
         </nav>
