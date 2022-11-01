@@ -15,7 +15,7 @@
     $duration=$_POST['duration'];
     $clock=date($_POST['clock']);
     $hariMulai = date('d/m/Y', strtotime($bookDate));
-    $hari_Selesai = date('d/m/Y', strtotime('+'.$duration.'day', strtotime($bookDate)));
+    $hariSelesai = date('d/m/Y', strtotime('+'.$duration.'day', strtotime($bookDate)));
     $telp=$_POST['telp'];
     $carType=$_POST['carType'];
     $price=0;
@@ -24,14 +24,14 @@
     if ($carType == "F1 W13 E Performance") {
         $price=2500000*$duration;
     } elseif ($carType == "TVS King Deluxe") {
-        $price=15000*$duration;
+        $price=150000*$duration;
     } elseif ($carType == "Jagdpanther") {
         $price=200000*$duration;
     }
 
     if (@$_POST['service1'] == 'on') {
         array_push($service, "Health Protocol");
-        $price+=25000;
+        $price +=25000;
     } 
     if (@$_POST['service2'] == 'on') {
         array_push($service, "Driver");
