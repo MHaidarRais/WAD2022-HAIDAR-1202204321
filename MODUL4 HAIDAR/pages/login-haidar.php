@@ -50,7 +50,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Leopard_2_A5_der_Bundeswehr.jpg/1280px-Leopard_2_A5_der_Bundeswehr.jpg" alt="Card image" class="image-fluid">
         </div>
     <div class="col w-75">
-        <div class="form-signin w-100 mx-auto my-5 py-1 bg-white">
+        <div class="form-signin w-75 mx-auto my-5 py-1 bg-white">
             <form class="m-5" action="" method="post">
                 <p class="h3 mb-3 text-center">Login</p>
                 <hr class="my-4">

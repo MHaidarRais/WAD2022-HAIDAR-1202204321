@@ -6,7 +6,6 @@ require "../config/register.php";
       exit;
     }
   };
-
 ?>
 
 
