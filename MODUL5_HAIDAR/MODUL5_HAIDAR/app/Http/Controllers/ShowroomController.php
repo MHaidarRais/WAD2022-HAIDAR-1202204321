@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Showroom;
 use App\Http\Requests\StoreShowroomRequest;
 use App\Http\Requests\UpdateShowroomRequest;
 
