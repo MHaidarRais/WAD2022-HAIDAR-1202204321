@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,10 +18,9 @@ Route::get('/', function () {
     return view('home-haidar');
 });
 
-Route::get('/login', [UserController::class, 'login']);
+Route::get('/login', [UserController::class, 'showlogin']);
 Route::get('/register', [UserController::class, 'showRegis']);
 Route::get('/logout', [UserController::class, 'logout']);
 
 Route::post('/login', [UserController::class, 'login']);
 Route::post('/register', [UserController::class, 'register']);
-
